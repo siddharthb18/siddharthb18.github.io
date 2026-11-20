@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Siddharth Bhatt",
   description:
-    "Software engineer with 2+ years on production backend services at Walmart Global Tech. MS in Computer Engineering at Texas A&M. Looking for a Summer 2027 software or AI engineering internship.",
+    "Software engineer and MS student in Computer Engineering at Texas A&M. Two years at Walmart Global Tech on distributed services, APIs and AI tools for engineers. Looking for a Summer 2027 internship.",
   icons: { icon: "/icon.svg" },
 };
 
