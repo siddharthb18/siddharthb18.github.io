@@ -26,7 +26,6 @@ const PROJECTS: Project[] = [
         prototype, still being evaluated.
       </>
     ),
-    preview: "The model never writes SQL, so a whole class of wrong or unsafe queries can’t happen.",
     artifact: <img src="/media/cohortex-report.webp" width={945} height={933} alt="A Cohortex report: findings where each number links to the tool call it came from" />,
     links: [{ href: LINKS.cohortexDemo, label: "Demo" }, { href: LINKS.cohortexRepo, label: "Code" }],
   },
@@ -40,7 +39,6 @@ const PROJECTS: Project[] = [
         compared with LRU on five SPEC CPU 2017 workloads. Coursework for Computer Architecture at Texas A&amp;M.<Cite n={3} />
       </>
     ),
-    preview: "DIP lets a few sample sets of each policy compete, and a 10-bit counter picks the winner for the rest.",
     artifact: <SetDuelingDiagram />,
   },
   {
@@ -54,7 +52,6 @@ const PROJECTS: Project[] = [
         movie search and recommendations.
       </>
     ),
-    preview: "Five models on Spark MLlib and three TensorFlow networks.",
     artifact: <EnsembleDiagram />,
     links: [{ href: LINKS.movieReport, label: "Report" }],
   },
