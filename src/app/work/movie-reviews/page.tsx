@@ -17,9 +17,8 @@ const SOURCES: Source[] = [
 export default function Page() {
   return (
     <CaseStudy
-      kind="Course project · Big Data Analytics, IIT Guwahati · Fall 2023"
       title="Emotion-based movie review analysis"
-      dek="Sentiment classification on 50,000 IMDb reviews with eight models from two toolkits, combined into one ensemble and served through a small movie recommendation app."
+      dek="Coursework for Big Data Analytics at IIT Guwahati, fall 2023: sentiment classification on 50,000 IMDb reviews with eight models, combined into one ensemble and served through a small movie recommendation app."
       artifact={<EnsembleDiagram />}
       caption={<>The pipeline as described in my résumé; the full write-up is in the course report.<Cite n={2} /></>}
       links={[{ href: LINKS.movieReport, label: "Course report (PDF)" }]}
@@ -70,7 +69,7 @@ export default function Page() {
           ),
         },
         {
-          id: "evaluation", label: "Evaluation", title: "How I evaluated it",
+          id: "evaluation", label: "Evaluation", title: "Evaluation",
           body: (
             <div className="eval-grid">
               <div>

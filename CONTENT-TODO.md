@@ -39,7 +39,20 @@ Private notes for Siddharth. This file is in the repo but is **not** published: 
     was released to, not a count of active users.
 12. **Google Drive report links** (movie review, GAN, thesis): check each is shared as "Anyone with the link".
 
+## ECEN 719 hardware project (added from the course lab page)
+
+15. The "Also built" list now shows the Canny edge detector system (Labs 4, 5, 10 and 11) instead of the SRAM lab.
+    Confirm you completed those labs, and if your designs hit the 98% image-match target, I can add the number.
+    The bus arbiter, SRAM model and testbench were provided by the course; the site credits you with the detector
+    and the bus wrapper only. Consider updating the résumé's SRAM project the same way.
+
+## Palette test
+
+16. A "Palette" button (bottom-left on desktop, bottom-right on phones) switches between Tea (cream and oolong
+    amber) and Aura (near-black with orange, pink and indigo). Once you pick one, tell me and I'll make it the only
+    palette and remove the button, so it doesn't ship to visitors.
+
 ## Optional
 
 13. A photo, if you want one, in `public/media/` and the About section.
-14. Repos or demos for the GAN, Agro Drone or SRAM projects, if any exist.
+14. Repos or demos for the GAN, Agro Drone or Canny edge detector projects, if any exist.

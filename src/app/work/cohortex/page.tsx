@@ -20,9 +20,8 @@ const SOURCES: Source[] = [
 export default function Page() {
   return (
     <CaseStudy
-      kind="Personal project · prototype · Oct 2026 to now"
       title="Cohortex"
-      dek="An agent system that investigates hard-drive failures in public fleet data. The rule I built it around: every number in a report has to point back to the tool call it came from, and code checks it before anyone reads it."
+      dek="A personal project I’ve been building since October 2026: an agent that investigates hard-drive failures in public data, where every number in its report has to point back to the tool call it came from. It’s a working prototype, not a product."
       artifact={<img src="/media/cohortex-report.webp" width={945} height={933} alt="A Cohortex report with a summary, findings and hypotheses; each number is marked with a link to its evidence" />}
       caption={<>A report from the recorded demo. Each highlighted number opens the tool result it came from.<Cite n={1} /></>}
       links={[
@@ -121,7 +120,7 @@ export default function Page() {
           ),
         },
         {
-          id: "evaluation", label: "Evaluation", title: "How I know it works, so far",
+          id: "evaluation", label: "Evaluation", title: "Evaluation",
           body: (
             <div className="eval-grid">
               <div>

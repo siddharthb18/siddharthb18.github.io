@@ -17,9 +17,8 @@ const SOURCES: Source[] = [
 export default function Page() {
   return (
     <CaseStudy
-      kind="Course project · Computer Architecture (CSCE 614), Texas A&M · Fall 2026"
       title="Cache replacement policies in ChampSim"
-      dek="Three ways to decide where a new block enters a last-level cache, written in C++ for the ChampSim simulator and measured against plain LRU on SPEC CPU 2017."
+      dek="Coursework for Computer Architecture (CSCE 614) at Texas A&M, fall 2026: three ways to decide where a new block enters a last-level cache, written in C++ for the ChampSim simulator and compared with plain LRU."
       artifact={<SetDuelingDiagram />}
       caption={<>How DIP chooses a policy: a few sets always use LRU insertion, a few always use BIP, and one counter keeps score for everyone else. Diagram, not measured data.</>}
       role={
@@ -77,7 +76,7 @@ export default function Page() {
           ),
         },
         {
-          id: "evaluation", label: "Evaluation", title: "How I evaluated it",
+          id: "evaluation", label: "Evaluation", title: "Evaluation",
           body: (
             <div className="eval-grid">
               <div>
